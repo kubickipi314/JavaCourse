@@ -1,4 +1,4 @@
-package Threads_wait_notify;
+package Threads.Threads_wait_notify;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Threads_stopthread;
+package Threads.Threads_stopthread;
 
 import java.util.concurrent.TimeUnit;
 

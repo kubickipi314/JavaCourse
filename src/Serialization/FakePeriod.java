@@ -1,9 +1,11 @@
+package Serialization;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
 public class FakePeriod {
-    // Byte stream couldn ’t have come from a real Period instance !
+    // Byte stream couldn ’t have come from a real Serialization.Period instance !
     private static final byte [] serializedForm = {
             ( byte ) 0xac , ( byte )0xed ,0x00 ,0x05 ,0x73 ,0x72 ,0x00 ,0x06 ,
             0x50 , 0x65 ,0x72 ,0x69 ,0x6f ,0x64 ,0x40 ,0x7e , ( byte )0xf8 ,

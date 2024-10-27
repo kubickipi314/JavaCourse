@@ -1,4 +1,4 @@
-package Threads_CoutdownLatch;
+package Threads.Threads_CoutdownLatch;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
