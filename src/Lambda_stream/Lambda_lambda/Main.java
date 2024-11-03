@@ -28,5 +28,8 @@ public class Main {
         consumer.attach(eventProducer);
 
         eventProducer.triggerEvent("TestEvent");
+
+
+
     }
 }
