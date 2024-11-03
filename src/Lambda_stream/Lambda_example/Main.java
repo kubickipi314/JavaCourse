@@ -16,5 +16,3 @@ public class Main {
         System.out.println(multiplication.operation(2,2));
     }
 }
-//java_repo
-//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
