@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processor name="SimpleAnnotationProcessor.java" />
+        <processorPath useClasspath="false" useProcessorModulePath="true">
+          <entry name="$PROJECT_DIR$/src/Adnotations/is_final/SimpleAnnotationProcessor.java" />
+        </processorPath>
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zad_java" options="--add-exports java.base/jdk.internal.jimage.decompressor=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
